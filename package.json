@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.15.4",
     "@tsed/schema": "^7.70.1",
+    "dayjs": "^1.11.11",
     "formik": "^2.4.5",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
