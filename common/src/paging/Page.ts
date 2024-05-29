@@ -1,9 +1,8 @@
-import { CollectionOf, Generics } from '@tsed/schema';
+import { CollectionOf } from '@tsed/schema';
 import { PageMetadata } from './PageMetadata';
 
-@Generics('T')
 export class Page<T> {
-  @CollectionOf('T')
+  @CollectionOf(Object) // Change if needed to match the expected type
   result: T[];
 
   metadata: PageMetadata;

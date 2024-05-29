@@ -16,9 +16,9 @@ const StepThree = () => {
         </button>
         {/* line */}
         <div className='flex items-center mt-[25px]'>
-          <span className='block flex-1 h-px bg-black'/>
+          <span className='block flex-1 h-px bg-black' />
           <p className=" text-gray-800 px-5 text-[14.88px] font-light">Or pay with card</p>
-          <span className='block flex-1 h-px bg-black'/>
+          <span className='block flex-1 h-px bg-black' />
         </div>
 
         <Input className='border  border-neutral-200' label="Email" />
@@ -47,13 +47,13 @@ const StepThree = () => {
         <div className='!mt-[14px]'>
           <p className=" text-gray-800 text-[14.88px] font-normal leading-snug">Country or region</p>
           <div className=' rounded-[5px] mt-px overflow-hidden border border-neutral-200'>
-            <Select />
+            {/* <Select  />/ */}
 
             <input placeholder='ZIP' className='outline-none px-2 w-full block h-[40px]' />
 
           </div>
         </div>
-        <Button fullWidth style={{background:"#931D72", height:"61px",borderRadius:"20px",marginTop:"60px"}}>
+        <Button fullWidth style={{ background: "#931D72", height: "61px", borderRadius: "20px", marginTop: "60px" }}>
           <span className="text-center text-white text-xl font-medium">Complete Order</span>
         </Button>
       </div>
