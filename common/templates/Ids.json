@@ -1,0 +1,54 @@
+[
+  {
+    "prefix": "AS",
+    "name": "Answer"
+  },
+  {
+    "prefix": "AD",
+    "name": "Address"
+  },
+  {
+    "prefix": "EB",
+    "name": "ExperienceBlock"
+  },
+  {
+    "prefix": "EX",
+    "name": "Experience"
+  },
+  {
+    "prefix": "HS",
+    "name": "Host"
+  },
+  {
+    "prefix": "RQ",
+    "name": "Request"
+  },
+  {
+    "prefix": "TK",
+    "name": "Ticket"
+  },
+  {
+    "prefix": "TT",
+    "name": "TicketTier"
+  },
+  {
+    "prefix": "QS",
+    "name": "Question"
+  },
+  {
+    "prefix": "US",
+    "name": "User"
+  },
+  {
+    "prefix": "UR",
+    "name": "UserRole"
+  },
+  {
+    "prefix": "VR",
+    "name": "Verification"
+  },
+  {
+    "prefix": "WL",
+    "name": "Waitlist"
+  }
+]
